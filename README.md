@@ -8,8 +8,8 @@ A second file is a json file with network credentials which is created automatic
 ### Method 1 (High RAM)
 This method is for the models with higher RAM. It uses a normal python script without pre-compiling (.py file) which is later compiled and uses more system resources.
 
-Upload "esp_station.py" with "boot.py" adding the following line in "boot.py"
-> from esp_station import *
+Upload "esp_wifi_station.py" with "boot.py" adding the following line in "boot.py"
+> from esp_wifi_station import *
 
 If it doesn't work or you get a memory allocation error, follow Method 2.
 
@@ -17,8 +17,8 @@ If it doesn't work or you get a memory allocation error, follow Method 2.
 ### Method 2 (Low RAM)
 This method is for the models with lower RAM. It uses the pre-compiled python script (.mpy file) to use small RAM efficiently.
 
-Upload "esp_station.mpy" with "boot.py" adding the following line in "boot.py"
-> from esp_station import *
+Upload "esp_wifi_station.mpy" with "boot.py" adding the following line in "boot.py"
+> from esp_wifi_station import *
 
 ## Getting the following text.
 You will get the below text because, there is no database (.json file) in your system so, a new json file is created automatically with default settings and values at the next reboot.
@@ -82,4 +82,6 @@ If the station can't find any available networks it will show the following text
 
 
 			    Sorry, no network on radar matches the saved networks.
-			    Returning to the station.			    
+			    Returning to the station.	
+			    
+## Call the station console by calling "station()" from the MicroPython REPL
