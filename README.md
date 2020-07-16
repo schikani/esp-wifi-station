@@ -30,15 +30,15 @@ You will get the below text because, there is no database (.json file) in your s
 
 After the auto-reboot, the script reads the values from the newly created json file (which will be our database).
 
-				<>_<> Board type: esp8266
-				<>_<> Discoverable as: ESP_Station
-				<>_<> Network config: ('192.168.4.1', '255.255.255.0', '192.168.4.1', '0.0.0.0')
+			<>_<> Board type: esp8266
+			<>_<> Discoverable as: ESP_Station
+			<>_<> Network config: ('192.168.4.1', '255.255.255.0', '192.168.4.1', '0.0.0.0')
 
-				Attempting auto-connection...
+			Attempting auto-connection...
 
 
-				    There is no database with saved networks.
-            			    Returning to the station.
+			    There is no database with saved networks.
+			    Returning to the station.
                 
 You can change the AP settings, Add/Remove networks, Auto-connect/Manually-connect to networks from the station console.
 
