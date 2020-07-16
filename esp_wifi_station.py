@@ -1,4 +1,4 @@
-# Use this file as boot.py to start the wifi station in the beginning after boot.
+# Use this file with boot.py to start the esp_wifi_station in the beginning after boot.
 # On every boot, the station attempts to auto-connect to a saved network if available.
 # Use station() to call the station from the REPL.
 import network
