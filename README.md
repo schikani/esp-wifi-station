@@ -41,6 +41,7 @@ After the auto-reboot, the script reads the values from the newly created json f
 			    Returning to the station.
                 
 You can change the AP settings, Add/Remove networks, Auto-connect/Manually-connect to networks from the station console.
+Simply type "station()" from MicroPython REPL to see the station console.
 
 			  __|_________________________________________________________|__
 			    |                * Welcome to the Station! *              |
@@ -84,4 +85,3 @@ If the station can't find any available networks it will show the following text
 			    Sorry, no network on radar matches the saved networks.
 			    Returning to the station.	
 			    
-## Call the station console by calling "station()" from the MicroPython REPL
