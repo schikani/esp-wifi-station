@@ -216,7 +216,7 @@ def do_connect():
     rdr(d)
 
     if SSID_COUNT:
-        common_networks = set(d.values()) & set(f2r['ssid'].values())
+        common_networks = set(f2r['ssid'].values()) & set(d.values())
         if len(common_networks) > 0:
             ssid = list(common_networks)[0]
             print('found: ' + ssid)
