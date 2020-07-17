@@ -3,7 +3,7 @@
 It is a lightweight Wifi station for ESP8266/32 in Micropython. It is capable of auto-connecting to the available networks when the device is powered on. You can also set an access name and password in ESP8266 (in ESP32 access name and max_clients) to let other devices connect to your station. 
 A second file is a json file with network credentials which is created automatically and it is the main database.
 
-## Uploading the esp_station file.
+## Uploading the esp_wifi_station file.
 
 ### Method 1 (High RAM)
 This method is for the models with higher RAM. It uses a normal python script without pre-compiling (.py file) which is later compiled and uses more system resources.
