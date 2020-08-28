@@ -1,3 +1,4 @@
+![alt text](https://github.com/schikani/esp-wifi-station/blob/master/esp_wifi_station.png)
 # esp-wifi-station in MicroPython
 
 It is a lightweight Wifi station for ESP8266/32 in Micropython. It is capable of auto-connecting to the available networks when the device is powered on. You can also set an access name and password in ESP8266 (in ESP32 access name and max_clients) to let other devices connect to your station. 
