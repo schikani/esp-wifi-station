@@ -9,7 +9,7 @@ A second file is a json file with network credentials which is created automatic
 ### Method 1 (High RAM)
 This method is for the models with higher RAM. It uses a normal python script without pre-compiling (.py file) which is later compiled and uses more system resources.
 
-Upload "esp_wifi_station.py" with "boot.py" adding the following line in "boot.py"
+Upload "esp_wifi_station.py" with "boot.py" and add the following line in "boot.py"
 > from esp_wifi_station import *
 
 If it doesn't work or you get a memory allocation error, follow Method 2.
